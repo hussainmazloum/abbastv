@@ -1,0 +1,76 @@
+/* ------------------------------ index.html side ---------------------*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #353373;
+}
+
+
+
+#logg {
+  text-align: center;
+  width: 400px;
+  height: 450px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.5),
+    0 6px 20px 0 rgba(0, 0, 0, 0.79);
+  background-image: url("sky-night\ copy\ 2.png");
+  background-size: cover;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#logg img {
+  width: 300px;
+  margin-top: 45px;
+  margin-bottom: 50px;
+}
+#logg input {
+  width: 250px;
+  height: 35px;
+  font-size: large;
+  margin: 5px 0;
+  padding-left: 10px;
+  border: none;
+}
+
+#logg input:focus {
+  border: 1px solid rgb(129, 152, 129);
+  outline: none;
+}
+
+#logg button {
+  padding: 8px;
+  margin-top: 25px;
+  width: 200px;
+  font-size: 20px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(201, 234, 243);
+  cursor: pointer;
+}
+
+#logg button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(46, 107, 123, 0.394);
+}
+
+#logg button:focus {
+  border: 0.5px solid rgb(129, 152, 129);
+  outline: none;
+}
+
+.felt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: white;
+}

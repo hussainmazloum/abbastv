@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <title>IPTV Player</title>
+    <link rel="stylesheet" href="player.css" />
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script type="module" src=""></script>
+    
+  </head>
+  <body>
+    <div class="bilde">
+      <a href="index.html"
+        ><img class="sora" src="logo-tv.png" width="400px" alt="logo"
+      /></a>
+      <h1>Arabic TV Channels</h1>
+      <button class="btnn" onclick="tilbake()">Logg ut</button>
+    </div>
+
+    <div class="container">
+      <div id="channels"></div>
+
+      <div id="player">
+        
+        <div class="top">
+          <div id="clock"></div>
+          <h2 id="channelName">القناة</h2>
+        </div>
+
+        <video
+          id="video"
+          controls
+          autoplay
+          preload="auto"
+          poster="logo-tv.png"
+          video.controls="true"
+        ></video>
+        <div class="ned">
+          <p>&copy; Mazloum - 2026</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="player.js"></script>
+    
+  </body>
+</html>
