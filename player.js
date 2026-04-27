@@ -17,7 +17,7 @@ jsonData.forEach((channel) => {
   const div = document.createElement("div");
   div.className = "channel";
   div.innerText = channel.name;
-  div.innerHTML = `<img src="${channel.icon}" style="width:45px;">${channel.name}`;
+  div.innerHTML = `<img src="${channel.icon}" style="width:50px;">${channel.name}`;
 
 
   div.onclick = () => {
