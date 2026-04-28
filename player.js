@@ -17,7 +17,7 @@ jsonData.forEach((channel) => {
   const div = document.createElement("div");
   div.className = "channel";
   div.innerText = channel.name;
-  div.innerHTML = `<img src="${channel.icon}" style="width:50px;">${channel.name}`;
+  div.innerHTML = `<img src="${channel.icon}" style="width:55px;">${channel.name}`;
 
 
   div.onclick = () => {
@@ -25,15 +25,10 @@ jsonData.forEach((channel) => {
   };
 
   channelList.appendChild(div);
-  
-})
 
-/* --------------------------------------------------------------*/
-
-
-function playStream(url, name) {
-  channelName.innerText = `${name}`;
-
+ function playStream( url, name) {
+  /* channelName.innerText = `${name}`; */
+ channelName.innerHTML = `<img src="${channel.icon}" style="width:35px;margin-right:8px;">${channel.name}`;
   if (hls) {
     hls.destroy();
   }
@@ -50,7 +45,9 @@ function playStream(url, name) {
   } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
     video.src = url;
   }
-}
+} 
+  
+})
 
 });
 
