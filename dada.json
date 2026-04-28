@@ -40,12 +40,12 @@
 {
   "name": "Al jazeera 2",
   "url": "https://live-hls-web-aja2-gcp.thehlive.com/AJA2/01.m3u8",
-  "icon":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSCgPzhaGPLxkYvsHGqcpwI_iqAswCrmzxfQ&s"
+  "icon":"https://play-lh.googleusercontent.com/KaCd66zosNRkQYI7DuRR-7KMoYQL-ZjlxMo25lBcVSGj9y3EihMIf8XVhJq07CVYXMY"
 },
     {
   "name": "Al jazeera direct",
   "url": "https://live-hls-web-ajm.getaj.net/AJM/04.m3u8",
-  "icon":"https://yt3.googleusercontent.com/h0_bBdVgCAXIPJFnQ4hZtE87cDY_qO7rkDAue8qXdmOFxZ5NaO3AFD1uCUcst-EsBcGJ8zl8EQ=s900-c-k-c0x00ffffff-no-rj"
+  "icon":"https://pbs.twimg.com/profile_images/1152887558151507970/I8mYC0Ar_400x400.jpg"
 },
 {
   "name": "Russia Today",
@@ -55,12 +55,12 @@
 {
   "name": "Al Masira",
   "url": "https://live.cdnbridge.tv/Almasirah/Almasirah_all/Almasirah/Almasirah_1080p/chunks.m3u8",
-  "icon":"https://static.wikia.nocookie.net/logopedia/images/8/8e/Al_Masirah.png/revision/latest?cb=20210620212738"
+  "icon":"https://www.yemenipress.net/wp-content/uploads/%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%B1%D8%A9-2.jpg"
 },
 {
   "name": "Al Masira direct",
   "url": "https://live2.cdnbridge.tv/AlmasirahMubasher/Mubasher_All/MubasherLive/Mubasher_1080p/chunks.m3u8",
-  "icon":"https://almasirah.net.ye/images/logo.9ic7b8own3.png"
+  "icon":"https://www.yemenipress.net/wp-content/uploads/%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%B1%D8%A9-2.jpg"
 },
 {
   "name": "TRT Arabic",
@@ -105,7 +105,7 @@
   {
     "name": "Al Sharq",
     "url": "https://svs.itworkscdn.net/bloomberarlive/bloomberg.smil/playlist_dvr.m3u8",
-    "icon":"https://upload.wikimedia.org/wikipedia/commons/0/0d/AsharqNewsLogo.png"
+    "icon":"https://static.hiamag.com/styles/autox754/public/article/11/11/2020/9908246-1439540641.jpg"
   },
 
   {
@@ -129,7 +129,7 @@
   {
     "name": "MBC",
     "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8",
-    "icon":"https://i.ytimg.com/vi/seYGmWliDZw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAJJO-_cSjCOGeov4pvJf-HLGWQPA"
+    "icon":"https://upload.wikimedia.org/wikipedia/commons/8/81/Mbc1logo.png"
   },
 
 
@@ -148,7 +148,7 @@
   {
     "name": "MBC 5",
     "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8",
-    "icon":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5SSjB2lORmnSLB-hZ_bZP4W6tHEHw5V-5gA&s"
+    "icon":"https://tlfaz.com/wp-content/uploads/2022/02/mbc5-tv.png"
   },
 
   {
@@ -160,7 +160,7 @@
   {
     "name": "MBC Bollywood",
     "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8",
-    "icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/MBC_Bollywood_Logo.svg/1280px-MBC_Bollywood_Logo.svg.png"
+    "icon":"https://yt3.googleusercontent.com/ytc/AIdro_nFIE_Rq0Gi2tddySlxx5GVMSKZoVwaOeTjl4chErkZdw=s900-c-k-c0x00ffffff-no-rj"
   },
 
   {
