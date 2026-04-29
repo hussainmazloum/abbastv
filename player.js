@@ -1,5 +1,5 @@
 
-fetch("dada.json")
+fetch("bilder.json")
 
   .then((response) => { if (!response.ok) {throw new Error(`HTTP error! status: ${response.status}`);} return response.json(); })
     
@@ -17,7 +17,7 @@ jsonData.forEach((channel) => {
   const div = document.createElement("div");
   div.className = "channel";
   div.innerText = channel.name;
-  div.innerHTML = `<img src="${channel.icon}" style="width:55px;">${channel.name}`;
+  div.innerHTML = `<img src="${channel.icon}" style="width:60px;">${channel.name}`;
 
 
   div.onclick = () => {
