@@ -20,13 +20,13 @@
 {
   "name": "Al Alam",
   "url": "https://live1.alalam.ir/live/Alalam/index.m3u8",
-   "icon":"images/alam.png"
+   "icon":"alam.png"
 },
 
 {
   "name": "Al Arabi 1",
   "url": "https://live.kwikmotion.com/alaraby1live/alaraby_abr/alaraby1publish/alaraby1_source/chunks.m3u8",
-  "icon":"images/arabi_1.png"
+  "icon":"arabi_1.png"
 },
 
 {
