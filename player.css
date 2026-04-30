@@ -191,7 +191,8 @@ video {
 
   .channel {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   #channels:hover {
@@ -241,7 +242,8 @@ video {
 
   .channel {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .channel:hover {
