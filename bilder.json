@@ -609,6 +609,12 @@
     "icon":"images/ufc.png"
   },
 
+  {
+    "name": "Hard Knock Fighting",
+    "url": "https://d3uyzhwvmemdyf.cloudfront.net/scheduler/scheduleMaster/109/variant/22099396/8d216b41-1,96b-49d2-afb2-46cb9916f903.m3u8",
+    "icon":"images/knock.png"
+  },
+
    {
     "name": "Boxing Royalty",
     "url": "https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8",
