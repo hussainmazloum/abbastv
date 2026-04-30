@@ -20,13 +20,13 @@
 {
   "name": "Al Alam",
   "url": "https://live1.alalam.ir/live/Alalam/index.m3u8",
-   "icon":"alam.png"
+   "icon":"images/alam.png"
 },
 
 {
   "name": "Al Arabi 1",
   "url": "https://live.kwikmotion.com/alaraby1live/alaraby_abr/alaraby1publish/alaraby1_source/chunks.m3u8",
-  "icon":"arabi_1.png"
+  "icon":"images/arabi_1.png"
 },
 
 {
@@ -177,13 +177,13 @@
   {
     "name": "MBC Drama +",
     "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-plus-drama/e37251ec2aac8f6c98f75cd0fa37cd28/index.m3u8",
-    "icon":"images/mbc_drama_plus.png"
+    "icon":"images/MBC_Drama_Plus.png"
   },
 
   {
     "name": "MBC misr 1",
     "url": "https://shd-gcp-live.lg.mncdn.com/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8",
-    "icon":"images/mbc_masr.png"
+    "icon":"images/MBC_Masr.png"
   },
 
   {
@@ -206,7 +206,7 @@
   {
     "name": "Future",
     "url": "https://live.kwikmotion.com/futurelive/ftv.smil/playlist.m3u8",
-    "icon":"images/future_TV.png"
+    "icon":"images/Future_TV.png"
   },
 
   {
@@ -462,7 +462,7 @@
   {
     "name": "Roya_Adel_Imam",
     "url": "https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/adel-imam-movies/playlist/0.m3u8",
-    "icon":"images/roya-5.png"
+    "icon":"images/roya_5.png"
   },
   {
     "name": "Roya_Al_Hayba",
@@ -477,7 +477,7 @@
   {
     "name": "Roya_Action",
     "url": "https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/action/playlist/0.m3u8",
-    "icon":"images/roya-5.png"
+    "icon":"images/roya_5.png"
   },
   {
     "name": "Roya_Shamyeh",
@@ -522,7 +522,7 @@
   {
     "name": "Roya_Adventure",
     "url": "https://playlist.fasttvcdn.com/pl/toa2uuhhygheuly7xtuqrg/roya-adventures/playlist/0.m3u8",
-    "icon":"images/roya_7.png"
+    "icon":"images/roya_5.png"
   },
   {
     "name": "Roya_Palestine",
