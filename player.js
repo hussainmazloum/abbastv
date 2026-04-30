@@ -1,5 +1,5 @@
 
-fetch("dada.json")
+fetch("bilder.json")
 
   .then((response) => { if (!response.ok) {throw new Error(`HTTP error! status: ${response.status}`);} return response.json(); })
     
