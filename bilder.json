@@ -204,12 +204,6 @@
   },
 
   {
-    "name": "Spacetoon",
-    "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8",
-    "icon":"images/spacetoon.png"
-  },
-
-  {
     "name": "Future",
     "url": "https://live.kwikmotion.com/futurelive/ftv.smil/playlist.m3u8",
     "icon":"images/Future_TV.png"
@@ -278,6 +272,12 @@
     "name": "Taha Kids",
     "url": "https://stream.starmenajo.com/hls/app/live/medialist_7806664055920539159_hls.m3u8",
     "icon":"images/tahakids.png"
+  },
+
+  {
+    "name": "Spacetoon",
+    "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8",
+    "icon":"images/spacetoon.png"
   },
 
   {
