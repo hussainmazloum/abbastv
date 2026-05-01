@@ -276,7 +276,7 @@
 
   {
     "name": "Spacetoon",
-    "url": "https://cloud.odysee.live/content/f92670235a1ce2bce4cf77671cc4dcc2188baa1d/master.m3u8",
+    "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8",
     "icon":"images/spacetoon.png"
   },
 
