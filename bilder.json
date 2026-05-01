@@ -347,6 +347,12 @@
     "icon":"images/Almaaref.png"
   },
 
+   {
+    "name": "Al Aimma TV",
+    "url": "https://alaimma.tv/live/index.m3u8",
+    "icon":"images/aimma.png"
+  },
+
   {
     "name": "Al gadeer",
     "url": "https://sd343444.vodu.store:3356/live/Alghadeer/tracks-v1a1/mono.m3u8",
