@@ -131,6 +131,12 @@
     "icon":"images/mbc1.png"
   },
 
+  {
+    "name": "MBC 2",
+    "url": "http://154.58.202.18:8080/mbc2/index.m3u8",
+    "icon":"images/mbc_2.png"
+  },
+
 
   {
     "name": "MBC 3",
