@@ -194,7 +194,7 @@
 
   { "name": "MBC action", 
   "url": "http://185.9.2.18/chid_378/mono.m3u8" ,
-    "icon":"images/jadeed.png"
+    "icon":"images/mbc_action.png"
   },
 
   {
@@ -204,9 +204,9 @@
   },
 
   {
-    "name": "Tele liban",
+    "name": "Al Jadeed",
     "url": "http://185.9.2.18/chid_391/mono.m3u8",
-    "icon":"images/tele_liban.png"
+    "icon":"images/jadeed.png"
   },
 
   {
