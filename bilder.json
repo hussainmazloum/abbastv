@@ -432,16 +432,10 @@
   },
 
   {
-<<<<<<< HEAD
-    "name": "Syria TV",
-    "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-souriya-tv/e3150760fa5fd62776225433b8c3d406/manifest/video/1080p2400kbps/video.m3u8",
-    "icon":"images/rotana.png"
-=======
+
     "name": "Rotana Aflam",
     "url": "https://cdn1.iptvcdn.tv/mcnc/ROTANA_AFLAMPLUS/chunks.m3u8?nimblesessionid=639679405&token=demo",
-    "icon":"images/syria tv.png"
->>>>>>> fd5d4f6f4f0aa929eff42896eb3462e1e797cfcc
-    
+    "icon":"images/rotana.png" 
   },
 
   {
