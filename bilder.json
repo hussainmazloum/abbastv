@@ -431,11 +431,11 @@
     "icon":"images/lana.png"
   },
 
-  {
-
-    "name": "Rotana Aflam",
+    {
+    "name": "Rotana aflam",
     "url": "https://cdn1.iptvcdn.tv/mcnc/ROTANA_AFLAMPLUS/chunks.m3u8?nimblesessionid=639679405&token=demo",
-    "icon":"images/rotana.png" 
+    "icon":"images/rotana.png"
+    
   },
 
   {
