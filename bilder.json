@@ -433,6 +433,13 @@
 
   {
     "name": "Syria TV",
+    "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-souriya-tv/e3150760fa5fd62776225433b8c3d406/manifest/video/1080p2400kbps/video.m3u8",
+    "icon":"images/syria tv.png"
+    
+  },
+
+  {
+    "name": "Syria TV 1",
     "url": "https://svs.itworkscdn.net/syriatvlive/syriatv.smil/syriatvpublish/syriatv_source/chunks_dvr.m3u8",
     "icon":"images/syria tv.png"
     
