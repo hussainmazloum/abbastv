@@ -1,54 +1,64 @@
-
 fetch("bilder.json")
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.json();
+  })
 
-  .then((response) => { if (!response.ok) {throw new Error(`HTTP error! status: ${response.status}`);} return response.json(); })
-    
-  .then((jsonData) => { 
-const channelList = document.getElementById("channels");
-const video = document.getElementById("video");
-const channelName = document.getElementById("channelName");
+  .then((jsonData) => {
+    const channelList = document.getElementById("channels");
+    const video = document.getElementById("video");
+    const channelName = document.getElementById("channelName");
 
- const playerEl = document.getElementById("player");
+    const playerEl = document.getElementById("player");
 
-let hls;
+    let hls;
 
-/* --------------------------------------------------------------*/
+    /* --------------------------------------------------------------*/
 
+    jsonData.forEach((channel) => {
+      const div = document.createElement("div");
+      div.className = "channel";
+      div.innerText = channel.name;
+      div.innerHTML = `<img src="${channel.icon}" style="width:60px;">${channel.name}`;
 
-jsonData.forEach((channel) => {
-  const div = document.createElement("div");
-  div.className = "channel";
-  div.innerText = channel.name;
-  div.innerHTML = `<img src="${channel.icon}" style="width:60px;">${channel.name}`;
+      div.onclick = () => {
+        playStream(channel.url, channel.name, channel.type);
+      };
 
+      channelList.appendChild(div);
 
-  div.onclick = () => {
-   playStream(channel.url, channel.name, channel.type);
-  };
-
-  channelList.appendChild(div);
-
- function playStream(url, name, type) {
-
+      function playStream(url, name, type) {
   channelName.innerHTML = `<img src="${channel.icon}" style="width:35px;margin-right:8px;">${name}`;
 
   const ytPlayer = document.getElementById("ytPlayer");
 
-  // إخفاء الاثنين أولاً
+  // إخفاء الاثنين
   video.style.display = "none";
   ytPlayer.style.display = "none";
 
   if (type === "youtube") {
 
-    // إيقاف HLS إن وجد
+    // ⛔ أوقف الفيديو العادي
+    video.pause();
+    video.removeAttribute("src");
+    video.load();
+
     if (hls) {
       hls.destroy();
     }
 
     ytPlayer.style.display = "block";
+
+    // ⛔ مهم: إعادة تعيين src قبل التشغيل
+    ytPlayer.src = "";
     ytPlayer.src = `https://www.youtube.com/embed/${url}?autoplay=1`;
 
   } else {
+
+    // ⛔ أوقف YouTube تمامًا (هذا كان ناقص عندك)
+    ytPlayer.src = "";
 
     video.style.display = "block";
 
@@ -59,7 +69,7 @@ jsonData.forEach((channel) => {
     if (Hls.isSupported()) {
       hls = new Hls({
         enableWorker: true,
-        lowLatencyMode: true
+        lowLatencyMode: true,
       });
 
       hls.loadSource(url);
@@ -70,31 +80,27 @@ jsonData.forEach((channel) => {
     }
   }
 }
+    });
 
+    /* --------------------------------------------------------------*/
 
-});
+    function updateClock() {
+      const now = new Date();
+      const display = now.toLocaleTimeString();
+      document.getElementById("clock").textContent = display;
+    }
 
+    // Oppdater klokken hvert sekund
+    setInterval(updateClock, 1000);
 
-/* --------------------------------------------------------------*/
+    // Initialiser umiddelbart
+    updateClock();
 
-function updateClock() {
-  const now = new Date();
-  const display = now.toLocaleTimeString();
-  document.getElementById("clock").textContent = display;
-}
+    /* --------------------------------------------------------------*/
 
-// Oppdater klokken hvert sekund
-setInterval(updateClock, 1000);
+    function tilbake() {
+      window.location.href = "index.html";
+    }
 
-
-// Initialiser umiddelbart
-updateClock();
-
-/* --------------------------------------------------------------*/
-
-function tilbake() {
-  window.location.href = "index.html";
-}
-
-/* --------------------------------------------------------------*/
-  })
+    /* --------------------------------------------------------------*/
+  });
