@@ -17,6 +17,7 @@
   "icon":"images/mayadeen_1.png"
 },
 
+
 {
   "name": "Al Alam",
   "url": "https://live1.alalam.ir/live/Alalam/index.m3u8",
@@ -268,6 +269,13 @@
   },
 
   {
+    "name": "Toyor Aljanah",
+    "url": "b9iZR_yTyGc",
+    "icon":"images/toyyor.png",
+    "type": "youtube"
+  },
+
+  {
     "name": "KidsToon Goggle",
     "url": "https://amg01329-otterainc-toongoggles-samsungau-ad-4c.amagi.tv/playlist/amg01329-otterainc-toongoggles-samsungau/playlist.m3u8",
     "icon":"images/kidstoon.png"
@@ -344,6 +352,13 @@
     "name": "Karbalaa Doc",
     "url": "https://ktvlive.online/stream/hls/ch3.m3u8",
     "icon":"images/karbala_2.png"
+  },
+
+  {
+    "name": "karbala",
+    "url": "uq9xzrJsKZk",
+    "icon":"images/karbala.png",
+    "type": "youtube"
   },
 
   {
@@ -433,7 +448,7 @@
 
     {
     "name": "Rotana aflam",
-    "url": "https://cdn1.iptvcdn.tv/mcnc/ROTANA_AFLAMPLUS/chunks.m3u8?nimblesessionid=639679405&token=demo",
+    "url": "https://cdn1.iptvcdn.tv/mcnc/ROTANA_AFLAMPLUS/chunks.m3u8?nimblesessionid=640634054&token=demo",
     "icon":"images/rotana.png"
     
   },
