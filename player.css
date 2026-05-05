@@ -171,6 +171,8 @@ video {
   font-size: 18px;
 }
 
+/* -------------- media query 1024 -----------------------*/
+
 @media (max-width: 1024px) {
   .container {
     width: 100%;
@@ -181,6 +183,11 @@ video {
     width: 100%;
     height: auto;
     margin: auto;
+  }
+
+  #ytPlayer{
+    width: 100%;
+   
   }
 
   #channels {
@@ -232,6 +239,11 @@ video {
     width: 100%;
     height: auto;
     margin: auto;
+  }
+
+   #ytPlayer{
+    width: 100%;
+   
   }
 
   #channels {
