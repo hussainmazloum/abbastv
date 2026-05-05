@@ -5,6 +5,10 @@
     <title>Mazloum TV</title>
     <link rel="stylesheet" href="player.css" />
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+
+    <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+    <script src="https://unpkg.com/@videojs/youtube/dist/Youtube.min.js"></script>
+
     <script type="module" src=""></script>
     <link rel="icon" href="mazloum.png" type="image/png">
   </head>
@@ -26,6 +30,14 @@
           <div id="clock"></div>
           <h2 id="channelName">القناة</h2>
         </div>
+
+        <iframe id="ytPlayer"
+        width="1185.4"
+        height="666.7"
+        style="display:none;"
+        allow="autoplay; encrypted-media"
+        allowfullscreen>
+        </iframe>
 
         <video
           id="video"
