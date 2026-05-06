@@ -175,8 +175,15 @@ video {
 
 @media (max-width: 1024px) {
   .container {
-    width: 100%;
-    height: 100%;
+    flex-direction: column; /* يجعل العناصر تحت بعض */
+  }
+
+  #channels {
+    order: 2; /* ينزل للأسفل */
+  }
+
+  #player {
+    order: 1; /* يبقى فوق */
   }
 
   video {
@@ -187,13 +194,15 @@ video {
 
   #ytPlayer{
     width: 100%;
+
    
   }
 
   #channels {
     width: 100%;
-    height: 295px;
+    height: 650px;
     cursor: pointer;
+    
   }
 
   .channel {
@@ -226,30 +235,46 @@ video {
    #clock {
     padding: 0 10px;
   } 
+
+  #player{
+    order: -1;
+  }
 }
 
 /* -------------- media query 520 -----------------------*/
 @media (max-width: 520px) {
   .container {
-    width: 100%;
-    height: auto;
+    flex-direction: column; /* يجعل العناصر تحت بعض */
+  }
+
+  #channels {
+    order: 2; /* ينزل للأسفل */
+  }
+
+  #player {
+    order: 1; /* يبقى فوق */
   }
 
   video {
     width: 100%;
     height: auto;
     margin: auto;
+    
   }
 
    #ytPlayer{
     width: 100%;
+        
+
    
   }
 
   #channels {
     width: 100%;
-    height: 295px;
+    height: 650px;
     cursor: pointer;
+
+
   }
 
   .channel {
@@ -282,4 +307,8 @@ video {
   #clock {
     padding: 0 10px;
   } 
+
+  #player{
+    order: -1;
+  }
 }
