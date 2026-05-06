@@ -307,6 +307,12 @@
   },
 
   {
+    "name": "Mr. Bean TV",
+    "url": "https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8",
+    "icon":"images/bean.png"
+  },
+
+  {
     "name": "Super_Simple_Songs",
     "url": "https://janson-supersimplesongs-1-us.roku.wurl.tv/playlist.m3u8",
     "icon":"images/super.png"
