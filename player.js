@@ -21,7 +21,7 @@ fetch("bilder.json")
       const div = document.createElement("div");
       div.className = "channel";
       div.innerText = channel.name;
-      div.innerHTML = `<img src="${channel.icon}" style="width:60px;">${channel.name}`;
+      div.innerHTML = `<img src="${channel.icon}" style="width:80px;">${channel.name}`;
 
       div.onclick = () => {
         playStream(channel.url, channel.name, channel.type);
@@ -30,56 +30,52 @@ fetch("bilder.json")
       channelList.appendChild(div);
 
       function playStream(url, name, type) {
-  channelName.innerHTML = `<img src="${channel.icon}" style="width:35px;margin-right:8px;">${name}`;
+        channelName.innerHTML = `<img src="${channel.icon}" style="width:35px;margin-right:8px;">${name}`;
 
-  const ytPlayer = document.getElementById("ytPlayer");
+        const ytPlayer = document.getElementById("ytPlayer");
 
-  // إخفاء الاثنين
-  video.style.display = "none";
-  ytPlayer.style.display = "none";
+        // إخفاء الاثنين
+        video.style.display = "none";
+        ytPlayer.style.display = "none";
 
-  if (type === "youtube") {
+        if (type === "youtube") {
+          // ⛔ أوقف الفيديو العادي
+          video.pause();
+          video.removeAttribute("src");
+          video.load();
 
-    // ⛔ أوقف الفيديو العادي
-    video.pause();
-    video.removeAttribute("src");
-    video.load();
+          if (hls) {
+            hls.destroy();
+          }
 
-    if (hls) {
-      hls.destroy();
-    }
+          ytPlayer.style.display = "block";
 
-    ytPlayer.style.display = "block";
+          // ⛔ مهم: إعادة تعيين src قبل التشغيل
+          ytPlayer.src = "";
+          ytPlayer.src = `https://www.youtube.com/embed/${url}?autoplay=1`;
+        } else {
+          // ⛔ أوقف YouTube تمامًا (هذا كان ناقص عندك)
+          ytPlayer.src = "";
 
-    // ⛔ مهم: إعادة تعيين src قبل التشغيل
-    ytPlayer.src = "";
-    ytPlayer.src = `https://www.youtube.com/embed/${url}?autoplay=1`;
+          video.style.display = "block";
 
-  } else {
+          if (hls) {
+            hls.destroy();
+          }
 
-    // ⛔ أوقف YouTube تمامًا (هذا كان ناقص عندك)
-    ytPlayer.src = "";
+          if (Hls.isSupported()) {
+            hls = new Hls({
+              enableWorker: true,
+              lowLatencyMode: true,
+            });
 
-    video.style.display = "block";
-
-    if (hls) {
-      hls.destroy();
-    }
-
-    if (Hls.isSupported()) {
-      hls = new Hls({
-        enableWorker: true,
-        lowLatencyMode: true,
-      });
-
-      hls.loadSource(url);
-      hls.attachMedia(video);
-
-    } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
-      video.src = url;
-    }
-  }
-}
+            hls.loadSource(url);
+            hls.attachMedia(video);
+          } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+            video.src = url;
+          }
+        }
+      }
     });
 
     /* --------------------------------------------------------------*/
