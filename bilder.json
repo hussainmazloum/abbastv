@@ -301,6 +301,12 @@
   },
 
   {
+    "name": "Baby Sharq",
+    "url": "https://janson-supersimplesongs-1-us.roku.wurl.tv/playlist.m3u8",
+    "icon":"images/super.png"
+  },
+
+  {
     "name": "Super_Simple_Songs",
     "url": "https://janson-supersimplesongs-1-us.roku.wurl.tv/playlist.m3u8",
     "icon":"images/super.png"
