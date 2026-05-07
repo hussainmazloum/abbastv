@@ -186,6 +186,10 @@ video {
     order: 1; /* يبقى فوق */
   }
 
+  .bilde{
+    width: 100%;
+  }
+
   video {
     width: 100%;
     height: auto;
@@ -255,6 +259,10 @@ video {
 
   #player {
     order: 1; /* يبقى فوق */
+  }
+
+  .bilde{
+    width: 100%;
   }
 
   video {
