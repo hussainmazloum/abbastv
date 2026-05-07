@@ -226,7 +226,7 @@ video {
 
   .top {
     width: 100%;
-    padding: 0px 10px;
+    margin: 10px 0px 0px 0px;
   }
 
   h2 {
@@ -239,6 +239,8 @@ video {
   #player{
     order: -1;
   }
+
+  
 }
 
 /* -------------- media query 520 -----------------------*/
@@ -298,12 +300,14 @@ video {
 
   .top {
     width: 100%;
-    padding: 0px 10px;
+    margin: 10px 0px 0px 0px;
 
   }
+
   h2 {
     padding: 0px 10px;
   }
+
   #clock {
     padding: 0 10px;
   } 
