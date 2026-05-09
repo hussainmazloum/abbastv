@@ -15,14 +15,15 @@ fetch("bilder.json")
 
     let hls;
 
+    
+
     /* --------------------------------------------------------------*/
 
     jsonData.forEach((channel) => {
       const div = document.createElement("div");
       div.className = "channel";
       div.innerText = channel.name;
-      div.innerHTML = `<img src="${channel.icon}" style="width:80px;">${channel.name}`;
-
+      div.innerHTML = `<img src="${channel.icon}" class="channel-icon">${channel.name}`;
       div.onclick = () => {
         playStream(channel.url, channel.name, channel.type);
       };
@@ -30,7 +31,7 @@ fetch("bilder.json")
       channelList.appendChild(div);
 
       function playStream(url, name, type) {
-        channelName.innerHTML = `<img src="${channel.icon}" style="width:35px;margin-right:8px;">${name}`;
+        channelName.innerHTML = `<img src="${channel.icon}" class="player-icon">${name}`;
 
         const ytPlayer = document.getElementById("ytPlayer");
 
@@ -91,13 +92,12 @@ fetch("bilder.json")
 
     // Initialiser umiddelbart
     updateClock();
-
   });
 
-  /* --------------------------------------------------------------*/
+/* --------------------------------------------------------------*/
 
-   function tilbake() {
-      window.location.href = "index.html";
-    }
+function tilbake() {
+  window.location.href = "index.html";
+}
 
-  /* --------------------------------------------------------------*/
+/* --------------------------------------------------------------*/
