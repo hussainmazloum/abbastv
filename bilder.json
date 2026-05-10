@@ -251,6 +251,34 @@
   },
 
   {
+    "name": "Tom & Jerry Warner",
+    "url": "400k2SKoeh4",
+    "icon":"images/tom.png",
+    "type": "youtube"
+  },
+
+  {
+    "name": "Shaun the Sheep",
+    "url": "j6Mo4ZbQ5Yo",
+    "icon":"images/shaun.png",
+    "type": "youtube"
+  },
+
+  {
+    "name": "Kung Fu Panda",
+    "url": "L0VqY0s7-5k",
+    "icon":"images/panda.png",
+    "type": "youtube"
+  },
+
+  {
+    "name": "Smurfs",
+    "url": "SgFhzFF2tYA",
+    "icon":"images/Smurfs.png",
+    "type": "youtube"
+  },
+
+  {
     "name": "Ch4teen kids",
     "url": "https://1a-1791.com/live/qt9k24wa/slot-155/8t8p-3icm_1080p/chunklist_DVR.m3u8",
     "icon":"images/ch4teen kids.png"
@@ -665,6 +693,20 @@
     "name": "NRK 3",
     "url": "https://nrk-live-no.akamaized.net/nrk3/sc-gaFEEA/m523_index.m3u8",
     "icon":"images/nrk3.png"
+  },
+
+  {
+    "name": "National Geo.",
+    "url": "wVd836vHl6s",
+    "icon":"images/National.png",
+    "type": "youtube"
+  },
+
+  {
+    "name": "Animal Kingdom",
+    "url": "ItoNVjSmkx0",
+    "icon":"images/animal.png",
+    "type": "youtube"
   },
 
   {
