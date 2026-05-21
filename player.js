@@ -39,6 +39,8 @@ fetch("bilder.json")
 
         const ytPlayer = document.getElementById("ytPlayer");
 
+        
+
         // إخفاء الاثنين
         video.style.display = "none";
         ytPlayer.style.display = "none";
