@@ -21,7 +21,8 @@
 {
   "name": "Al Alam",
   "url": "https://live1.alalam.ir/live/Alalam/index.m3u8",
-   "icon":"images/alam.png"
+   "icon":"images/alam.png",
+   "type":"hls"
 },
 
 {
