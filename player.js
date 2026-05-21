@@ -1,4 +1,6 @@
 fetch("bilder.json")
+ 
+
   .then((response) => {
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
@@ -22,16 +24,18 @@ fetch("bilder.json")
     jsonData.forEach((channel) => {
       const div = document.createElement("div");
       div.className = "channel";
-      div.innerText = channel.name;
+/*       div.innerText = channel.name;
+ */
       div.innerHTML = `<img src="${channel.icon}" class="channel-icon">${channel.name}`;
+
       div.onclick = () => {
-        playStream(channel.url, channel.name, channel.type);
+        playStream(channel.url, channel.name, channel.type,channel.icon);
       };
 
       channelList.appendChild(div);
 
-      function playStream(url, name, type) {
-        channelName.innerHTML = `<img src="${channel.icon}" class="player-icon">${name}`;
+      function playStream(url, name, type,icon) {
+        channelName.innerHTML = `<img src="${icon}" class="player-icon">${name}`;
 
         const ytPlayer = document.getElementById("ytPlayer");
 
@@ -40,7 +44,7 @@ fetch("bilder.json")
         ytPlayer.style.display = "none";
 
         if (type === "youtube") {
-          // ⛔ أوقف الفيديو العادي
+          //  أوقف الفيديو العادي
           video.pause();
           video.removeAttribute("src");
           video.load();
@@ -51,11 +55,11 @@ fetch("bilder.json")
 
           ytPlayer.style.display = "block";
 
-          // ⛔ مهم: إعادة تعيين src قبل التشغيل
+          //  مهم: إعادة تعيين src قبل التشغيل
           ytPlayer.src = "";
           ytPlayer.src = `https://www.youtube.com/embed/${url}?autoplay=1`;
         } else {
-          // ⛔ أوقف YouTube تمامًا (هذا كان ناقص عندك)
+          //  أوقف YouTube تمامًا (هذا كان ناقص عندك)
           ytPlayer.src = "";
 
           video.style.display = "block";
