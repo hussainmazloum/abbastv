@@ -1,6 +1,4 @@
 fetch("bilder.json")
- 
-
   .then((response) => {
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
@@ -24,22 +22,18 @@ fetch("bilder.json")
     jsonData.forEach((channel) => {
       const div = document.createElement("div");
       div.className = "channel";
-/*       div.innerText = channel.name;
- */
+      div.innerText = channel.name;
       div.innerHTML = `<img src="${channel.icon}" class="channel-icon">${channel.name}`;
-
       div.onclick = () => {
-        playStream(channel.url, channel.name, channel.type,channel.icon);
+        playStream(channel.url, channel.name, channel.type);
       };
 
       channelList.appendChild(div);
 
-      function playStream(url, name, type,icon) {
-        channelName.innerHTML = `<img src="${icon}" class="player-icon">${name}`;
+      function playStream(url, name, type) {
+        channelName.innerHTML = `<img src="${channel.icon}" class="player-icon">${name}`;
 
         const ytPlayer = document.getElementById("ytPlayer");
-
-        
 
         // إخفاء الاثنين
         video.style.display = "none";
