@@ -73,7 +73,7 @@ fetch("bilder.json")
             hls.loadSource(url);
             hls.attachMedia(video);
           } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
-            video.src =`http://45.131.7.188:80/proxy/${url}`;
+            video.src =`https://45.131.7.188:80/proxy/${url}`;
           }
         }
       }
