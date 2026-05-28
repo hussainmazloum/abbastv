@@ -48,6 +48,13 @@
   "icon":"images/jazeera_3.png"
 },
 
+  {
+    "name": "Al Jazeera Doc",
+    "url": "zLXY-yprSuA",
+    "icon":"images/jazeeraDoc.png",
+    "type": "youtube"
+  },
+
 {
   "name": "Russia Today",
   "url": "https://rt-arb.rttv.com/live/rtarab/playlist_4500Kb.m3u8",
