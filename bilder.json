@@ -115,7 +115,7 @@
 
   {
     "name": "Al iman",
-    "url": "https://svs.itworkscdn.net/alimanlive/imantv.smil/playlist.m3u8",
+    "url": "https://svs.itworkscdn.net:443/alimanlive/imantv.smil/playlist.m3u8",
     "icon":"images/iman.png",
      "type": "hls"
   },
@@ -820,7 +820,7 @@
   },
   {
     "name": "NRK 1",
-    "url": "https://nrk-live-no.akamaized.net/nrk1/sc-gaFEEA/m534_index.m3u8?adap=large",
+    "url": "https://fomo.re/play/rtK-w3ixnEErMLG2SOXbzEB7frLPi_-3LeQsm3JBoeIqOuRbCJRiWQJh_V9lU7wc/ts",
     "icon":"images/nrk1.png",
      "type": "hls"
   },
@@ -883,6 +883,48 @@
    {
     "name": "Boxing Royalty",
     "url": "https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8",
+    "icon":"images/boxing.png",
+     "type": "hls"
+  },
+
+  {
+    "name": "Al kass 1",
+    "url": "https://liveeu-gcp.alkassdigital.net:443/alkass1-p/main.m3u8",
+    "icon":"images/boxing.png",
+     "type": "hls"
+  },
+
+  {
+    "name": "Al kass 2",
+    "url": "https://liveeu-gcp.alkassdigital.net:443/alkass2-p/main.m3u8",
+    "icon":"images/boxing.png",
+     "type": "hls"
+  },
+
+  {
+    "name": "Al kass 3",
+    "url": "https://liveeu-gcp.alkassdigital.net:443/alkass3-p/main.m3u8",
+    "icon":"images/boxing.png",
+     "type": "hls"
+  },
+
+  {
+    "name": "Al kass 4",
+    "url": "https://liveeu-gcp.alkassdigital.net:443/alkass4-p/main.m3u8",
+    "icon":"images/boxing.png",
+     "type": "hls"
+  },
+
+  {
+    "name": "Al kass 5",
+    "url": "https://liveeu-gcp.alkassdigital.net:443/alkass5-p/main.m3u8",
+    "icon":"images/boxing.png",
+     "type": "hls"
+  },
+
+  {
+    "name": "Al kass 6",
+    "url": "https://liveeu-gcp.alkassdigital.net:443/alkass6-p/main.m3u8",
     "icon":"images/boxing.png",
      "type": "hls"
   },

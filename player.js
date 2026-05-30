@@ -39,6 +39,8 @@ fetch("bilder.json")
         video.style.display = "none";
         ytPlayer.style.display = "none";
 
+        
+
         if (type === "youtube") {
           //  أوقف الفيديو العادي
           video.pause();
@@ -76,7 +78,10 @@ fetch("bilder.json")
             video.src = url;
           }
 
-          if (video.canPlayType("application/vnd.apple.mpegurl")) {
+          
+        }
+
+        if (video.canPlayType("application/vnd.apple.mpegurl")) {
                video.src = url;
                 video.play();
           } else if (Hls.isSupported()) {
@@ -84,8 +89,8 @@ fetch("bilder.json")
           hls.loadSource(url);
           hls.attachMedia(video);
           }
-        }
       }
+      
     });
 
     /* --------------------------------------------------------------*/
