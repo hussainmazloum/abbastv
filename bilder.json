@@ -820,7 +820,7 @@
   },
   {
     "name": "NRK 1",
-    "url": "https://fomo.re/play/rtK-w3ixnEErMLG2SOXbzEB7frLPi_-3LeQsm3JBoeIqOuRbCJRiWQJh_V9lU7wc/ts",
+    "url": "https://nrk-live-no.akamaized.net/nrk1/sc-gaFEEA/m523_index.m3u8",
     "icon":"images/nrk1.png",
      "type": "hls"
   },
