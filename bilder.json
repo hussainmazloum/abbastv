@@ -23,7 +23,7 @@
 
 {
   "name": "Al Alam",
-  "url": "https://live1.alalam.ir/live/Alalam/index.m3u8",
+  "url": "https://live2.alalam.ir/live/Alalam/index.m3u8",
    "icon":"images/alam.png",
    "type":"hls"
 },
