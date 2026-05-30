@@ -890,42 +890,42 @@
   {
     "name": "Al kass 1",
     "url": "https://liveeu-gcp.alkassdigital.net:443/alkass1-p/main.m3u8",
-    "icon":"images/boxing.png",
+    "icon":"images/alkass1.png",
      "type": "hls"
   },
 
   {
     "name": "Al kass 2",
     "url": "https://liveeu-gcp.alkassdigital.net:443/alkass2-p/main.m3u8",
-    "icon":"images/boxing.png",
+    "icon":"images/alkass2.png",
      "type": "hls"
   },
 
   {
     "name": "Al kass 3",
     "url": "https://liveeu-gcp.alkassdigital.net:443/alkass3-p/main.m3u8",
-    "icon":"images/boxing.png",
+    "icon":"images/alkass3.png",
      "type": "hls"
   },
 
   {
     "name": "Al kass 4",
     "url": "https://liveeu-gcp.alkassdigital.net:443/alkass4-p/main.m3u8",
-    "icon":"images/boxing.png",
+    "icon":"images/alkass4.png",
      "type": "hls"
   },
 
   {
     "name": "Al kass 5",
     "url": "https://liveeu-gcp.alkassdigital.net:443/alkass5-p/main.m3u8",
-    "icon":"images/boxing.png",
+    "icon":"images/alkass5.png",
      "type": "hls"
   },
 
   {
     "name": "Al kass 6",
     "url": "https://liveeu-gcp.alkassdigital.net:443/alkass6-p/main.m3u8",
-    "icon":"images/boxing.png",
+    "icon":"images/alkass6.png",
      "type": "hls"
   },
 
