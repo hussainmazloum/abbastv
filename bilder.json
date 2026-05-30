@@ -261,7 +261,7 @@
 
   {
     "name": "OTV",
-    "url": "https://otv.hibridcdn.net/otv/tv_abr/otv/tv_1080p/chunks.m3u8",
+    "url": "https://otv.hibridcdn.net:443/otv/tv_abr/playlist.m3u8",
     "icon":"images/otv1.png",
      "type": "hls"
   },
