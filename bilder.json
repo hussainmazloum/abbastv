@@ -888,6 +888,37 @@
   },
 
   {
+    "name": "TSN Sport 1",
+    "url": "https://tvpass.org/live/tsn1/hd",
+    "icon":"images/tsn1.png",
+     "type": "hls"
+  },
+  {
+    "name": "TSN Sport 2",
+    "url": "https://tvpass.org/live/tsn2/hd",
+    "icon":"images/tsn2.png",
+     "type": "hls"
+  },
+  {
+    "name": "TSN Sport 3",
+    "url": "https://tvpass.org/live/tsn3/hd",
+    "icon":"images/tsn3.png",
+     "type": "hls"
+  },
+  {
+    "name": "TSN Sport 4",
+    "url": "https://tvpass.org/live/tsn4/hd",
+    "icon":"images/tsn4.png",
+     "type": "hls"
+  },
+  {
+    "name": "TSN Sport 5",
+    "url": "https://tvpass.org/live/tsn5/hd",
+    "icon":"images/tsn5.png",
+     "type": "hls"
+  },
+
+  {
     "name": "Al kass 1",
     "url": "https://liveeu-gcp.alkassdigital.net:443/alkass1-p/main.m3u8",
     "icon":"images/alkass1.png",
