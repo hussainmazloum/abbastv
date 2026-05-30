@@ -25,13 +25,13 @@ fetch("bilder.json")
       div.innerText = channel.name;
       div.innerHTML = `<img src="${channel.icon}" class="channel-icon">${channel.name}`;
       div.onclick = () => {
-        playStream(channel.url, channel.name, channel.type);
+        playStream(channel.url, channel.name, channel.type, channel.icon);
       };
 
       channelList.appendChild(div);
 
-      function playStream(url, name, type) {
-        channelName.innerHTML = `<img src="${channel.icon}" class="player-icon">${name}`;
+      function playStream(url, name, type,icon) {
+        channelName.innerHTML = `<img src="${icon}" class="player-icon">${name}`;
 
         const ytPlayer = document.getElementById("ytPlayer");
 
@@ -74,6 +74,15 @@ fetch("bilder.json")
             hls.attachMedia(video);
           } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
             video.src = url;
+          }
+
+          if (video.canPlayType("application/vnd.apple.mpegurl")) {
+               video.src = url;
+                video.play();
+          } else if (Hls.isSupported()) {
+          hls = new Hls();
+          hls.loadSource(url);
+          hls.attachMedia(video);
           }
         }
       }
