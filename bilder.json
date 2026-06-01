@@ -240,7 +240,7 @@
   },
 
   { "name": "MBC action", 
-  "url": "http://185.9.2.18/chid_378/mono.m3u8" ,
+    "url": "https://185.9.2.18:443/chid_378/mono.m3u8" ,
     "icon":"images/mbc_action.png",
      "type": "hls"
   },
