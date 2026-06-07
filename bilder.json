@@ -954,12 +954,6 @@
      "type": "hls"
   },
 
-  {
-    "name": "TV 2",
-    "url": "https://fomo.re/play/rtK-w3ixnEErMLG2SOXbzEB7frLPi_-3LeQsm3JBoeLbtP-rCFqSyQSkn3OZWmNs/m3u8",
-    "icon":"images/bein.png",
-     "type": "hls"
-  },
 
    {
     "name": "Bein Sport",
