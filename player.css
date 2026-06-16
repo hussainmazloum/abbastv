@@ -10,22 +10,24 @@ body {
 .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   margin-top: 10px;
   
 
-  /*   border: 1px solid red;
- */
+/*   border: 1px solid red;
+ */ 
 }
 
 .bilde {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  width:auto;
+  margin:0 auto;
   padding: 0px 15px;
-  width: auto;
-  height: 120px;
-  margin: auto;
+  
   background-color: #0165fa46;
   box-shadow:
     0 4px 8px 0 rgba(0, 0, 0, 0.5),
@@ -40,6 +42,7 @@ body {
 .sora {
   width: 150pz;
   height: auto;
+  padding: 10px 0px;
   /*   border: 1px solid red;
  */
 }
@@ -55,8 +58,8 @@ h1 {
 
 .btnn {
   padding: 8px;
-  width: 200px;
-  font-size: 20px;
+  width: 150px;
+  font-size: 18px;
   border-radius: 6px;
   border: none;
   background-color: rgb(186, 36, 176);
@@ -180,9 +183,9 @@ video {
   margin-right: 8px;
 }
 
-/* -------------- media query 1024 -----------------------*/
+/* -------------- media query 1084 -----------------------*/
 
-@media (max-width: 1024px) {
+@media (max-width: 1084px) {
   .container {
     flex-direction: column; /* يجعل العناصر تحت بعض */
   }
@@ -271,98 +274,4 @@ video {
   }
 
   
-}
-
-/* -------------- media query 520 -----------------------*/
-@media (max-width: 520px) {
-  .container {
-    flex-direction: column; /* يجعل العناصر تحت بعض */
-  }
-
-  #channels {
-    order: 2; /* ينزل للأسفل */
-  }
-
-  #player {
-    order: 1; /* يبقى فوق */
-  }
-
-  .bilde{
-    width: 100%;
-  }
-
-  video {
-    width: 100%;
-    height: auto;
-    margin: auto;
-    
-  }
-
-   #ytPlayer{
-    width: 100%;
-        
-
-   
-  }
-
-  #channels {
-    width: 100%;
-    height: 770px;
-    cursor: pointer;
-
-  }
-
-  .channel {
-    font-size: 35px;
-    font-weight: 700;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-right: 15px;
-  }
-
-  .channel:hover {
-    background-color: rgb(165, 220, 245);
-    color: #2f0cf3;
-  }
-
-  img {
-    width: 70%;
-  }
-
-  h1 {
-    display: none;
-  }
-
-  .top {
-    width: 100%;
-    margin: 10px 0px 0px 0px;
-
-  }
-
-  h2 {
-    padding: 0px 10px;
-  }
-
-  #clock {
-    padding: 0 10px;
-  } 
-
-  #player{
-    order: -1;
-  }
-
- .channel-icon {
-    width: 50px;
-  }
-
-  .player-icon {
-    width:50px    ;
-  }
-
-  .btnn{
-    width: 25%;
-    height: 60px;
-
-    font-size: 30px;
-    font-weight:bold;
-  }
 }
