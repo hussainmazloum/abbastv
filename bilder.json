@@ -786,28 +786,28 @@
 
    {
     "name": "Ch4teen Kids",
-    "url": "https://1a-1791.com/live/qt9k24wa/slot-155/8t8p-3icm_1080p/chunklist_DVR.m3u8",
+    "url": "https://ch14.tv/live/ch4teenkids/playlist.m3u8",
     "icon":"images/ch4teen kids.png",
      "type": "hls"
   },
 
   {
     "name": "Ch4teen Quran",
-    "url": "https://1a-1791.com/live/za4hy30t/slot-119/eiu9-sry9_1080p/chunklist_DVR.m3u8",
+    "url": "https://ch14.tv/live/ch4teenquran/playlist.m3u8",
     "icon":"images/ch4teen quran.png",
      "type": "hls"
   },
 
   {
     "name": "Ch4teen clip",
-    "url": "https://1a-1791.com/live/hd37fm8g/slot-147/9zhs-cisp_1080p/chunklist_DVR.m3u8",
+    "url": "https://ch14.tv/live/ch4teenclip/playlist.m3u8",
     "icon":"images/ch4tee CLIP.png",
      "type": "hls"
   },
 
   {
     "name": "Ch4teen doc",
-    "url": "https://1a-1791.com/live/gke17oc4/slot-33/7v5k-v6nv_1080p/chunklist_DVR.m3u8",
+    "url": "https://ch14.tv/live/ch4teendoc/playlist.m3u8",
     "icon":"images/ch4teen doc.png",
      "type": "hls"
   },
