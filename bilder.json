@@ -57,9 +57,9 @@
 
   {
     "name": "Al Jazeera Doc",
-    "url": "zLXY-yprSuA",
+    "url": "http://154.58.202.18:8080/beinseries1/tracks-v1a1/mono.m3u8",
     "icon":"images/jazeeraDoc.png",
-    "type": "youtube"
+    "type": "hls"
   },
 
 {
@@ -117,6 +117,19 @@
     "name": "Al iman",
     "url": "https://svs.itworkscdn.net:443/alimanlive/imantv.smil/playlist.m3u8",
     "icon":"images/iman.png",
+     "type": "hls"
+  },
+
+  {
+    "name": "Almanar_2",
+    "url": "http://edge.fastpublish.me/live/index.m3u8",
+    "icon":"images/manar.png",
+     "type": "hls"
+  },
+  {
+    "name": "El itihad 2",
+    "url": "http://live.alittihad.tv:444/ittihad/index.m3u8",
+    "icon":"images/etihad.png",
      "type": "hls"
   },
 
@@ -881,18 +894,6 @@
      "type": "hls"
   },
 
-  {
-    "name": "TSN Sport ",
-    "url": "http://edge.fastpublish.me/live/index.m3u8",
-    "icon":"images/tsn1.png",
-     "type": "hls"
-  },
-  {
-    "name": "TSN Sport 2",
-    "url": "https://tvpass.org/live/tsn2/hd",
-    "icon":"images/tsn2.png",
-     "type": "hls"
-  },
   {
     "name": "TSN Sport 3",
     "url": "https://tvpass.org/live/tsn3/hd",
